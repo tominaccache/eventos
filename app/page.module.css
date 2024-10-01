@@ -14,6 +14,7 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,60 +28,3 @@
   }
 }
 
-
-.container {
-  max-width: 1200px; /* Ancho máximo */
-  margin: 0 auto; /* Centrar el contenedor */
-  padding: 20px; /* Espaciado interno */
-}
-
-.title {
-  font-size: 2.5rem; /* Tamaño del título */
-  text-align: center; /* Centrar texto */
-  margin-bottom: 20px; /* Margen inferior */
-}
-
-.description {
-  text-align: center; /* Centrar texto */
-  margin-bottom: 40px; /* Margen inferior */
-}
-
-.events {
-  margin-top: 40px; /* Margen superior */
-}
-
-.eventsTitle {
-  font-size: 2rem; /* Tamaño del título de eventos */
-  text-align: center; /* Centrar texto */
-  margin-bottom: 20px; /* Margen inferior */
-}
-
-.eventList {
-  display: flex; /* Usar flexbox para los eventos */
-  justify-content: space-around; /* Espacio entre eventos */
-  flex-wrap: wrap; /* Permitir que los eventos se envuelvan */
-}
-
-.eventCard {
-  border: 1px solid #ccc; /* Borde alrededor de cada evento */
-  border-radius: 8px; /* Bordes redondeados */
-  padding: 20px; /* Espaciado interno */
-  margin: 10px; /* Margen alrededor */
-  width: calc(30% - 20px); /* Ancho de las tarjetas de eventos */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-  text-align: center; /* Centrar texto */
-}
-
-.button {
-  display: inline-block; /* Hacer que el enlace se comporte como un botón */
-  margin-top: 10px; /* Margen superior */
-  padding: 10px 20px; /* Espaciado interno */
-  background-color: #0070f3; /* Color de fondo del botón */
-  color: white; /* Color del texto */
-  border-radius: 5px; /* Bordes redondeados */
-  text-decoration: none; /* Sin subrayado */
-}
-
-.button:hover {
-  background-color: #005bb5; /* Color de fondo al pasar el mouse */
-}

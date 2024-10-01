@@ -27,8 +27,8 @@ export default function RootLayout({ children }) {
           </div>
           <nav className={Styles.nav}>
           <ul className={Styles.ul}>
-              <li><Link href="/" className={Styles.a}>Home</Link></li>
-              <li><Link href="/Contacto" className={Styles.a}>Contacto</Link></li> {/* Corrige el enlace */}
+              <li><Link href="/Home" className={Styles.a}>Home</Link></li>
+              <li><Link href="/Contacto" className={Styles.a}>Contacto</Link></li> 
               <li><Link href="/perfil" className={Styles.a}>Perfil (Usuario)</Link></li>
               <li><Link href="/logout" className={Styles.a}>Cerrar sesión</Link></li>
             </ul>

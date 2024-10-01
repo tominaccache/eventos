@@ -8,6 +8,8 @@
     box-shadow: 10px 2px 17px 0px rgba(0,0,0,0.33);
     -webkit-box-shadow: 10px 2px 17px 0px rgba(0,0,0,0.33);
     -moz-box-shadow: 10px 2px 17px 0px rgba(0,0,0,0.33);
+    height: 10vh;
+    
   }
   
   .logo {
@@ -41,7 +43,9 @@
     color: #FFD700; 
   }
 
-
+.main{
+  height: 70vh;
+}
 
   .footer {
     background-color: #aaa0a0;
@@ -51,6 +55,7 @@
     box-shadow: 10px 2px 17px 0px rgba(0,0,0,0.05);
     -webkit-box-shadow: 10px 2px 17px 0px rgba(0,0,0,0.05);
     -moz-box-shadow: 10px 2px 17px 0px rgba(0,0,0,0.05);
+    height: 20vh;
   }
   
   .separacion {
