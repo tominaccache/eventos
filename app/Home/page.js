@@ -27,6 +27,7 @@ export default function Home() {
             <p>Descripción breve del evento 3.</p>
             
           </div>
+
         </div>
       </section>
 

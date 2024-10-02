@@ -1,4 +1,5 @@
-import Styles from './Registrarse.module.css';
+import Styles from './page.module.css';
+import Link from 'next/link';
 
 const Registrarse = () => {
     return (
@@ -35,6 +36,7 @@ const Registrarse = () => {
                     maxLength={20} 
                 />
                 <button className={Styles.button} type="submit">Registrarse</button>
+                <p className={Styles.p}>¿Ya estás logeado? <Link href="/" className={Styles.link}>Inicie sesión</Link></p>
             </form>
         </div>
     );
